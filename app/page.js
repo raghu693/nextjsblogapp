@@ -9,8 +9,9 @@ export default function Home() {
   const e1 = useRef(null);
   useEffect(() => {
     const typed = new Typed(e1.current, {
-      strings: ['Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science'],
-      typeSpeed: 60
+      strings: ['Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', ,'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly', 'Coding', 'Web Devlopment', 'Tailwind CSS', 'JavaScript', 'C++', 'C', 'Java', 'Python', 'Data Science', 'Machine Learning', 'Full Stack', 'Android', 'C#', 'HTML', 'CSS', 'FrontEnd', 'BackEnd', 'React JS', 'Next JS', 'Express JS', 'Typed JS', 'DSA', 'React Router', 'Routing', 'Ruby', 'Binary', 'Assembly'],
+      typeSpeed: 40,
+      backSpeed: 26
     })
   
     return () => {
@@ -68,19 +69,19 @@ export default function Home() {
                 </p>
                 <ul className="mt-6 mb-6 space-y-4">
                   <li className="text-gray-600 dark:text-gray-400">
-                    <s>10GB Storage</s>
+                    <>10GB Storage</>
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    <s>Basic Support</s>
+                    <>Basic Support</>
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    <s>Single User</s>
+                    <>Single User</>
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    Community Access
+                    <s>Community Access</s>
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    Weekly Updates
+                    <s>Weekly Updates</s>
                   </li>
                 </ul>
                 <Button className="mx-1" variant="outline">
@@ -111,10 +112,10 @@ export default function Home() {
                     Up to 5 Users
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    Community Access
+                    Daily Updates
                   </li>
                   <li className="text-gray-600 dark:text-gray-400">
-                    Daily Updates
+                    <s>Community Access</s>
                   </li>
                 </ul>
                 <Button className="mx-1" variant="outline">
