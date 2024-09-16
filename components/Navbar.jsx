@@ -14,7 +14,6 @@ import { ModeToggle } from "./theme-btn";
 import LoadingBar from 'react-top-loading-bar'
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-
 const Navbar = () => {
 
   const [progress, setProgress] = useState(0)
@@ -83,7 +82,7 @@ const Navbar = () => {
           <span className="mx-4">
             <ModeToggle className="px-2" />
           </span>
-          <Sheet>
+          <Sheet className='dark:bg-gray-800'>
             <SheetTrigger>
               <svg
                 className="w-6 h-6  "
@@ -102,7 +101,7 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                <SheetTitle className="font-bold my-4">RaghavBlog</SheetTitle>
+                <SheetTitle className="font-bold my-4 dark:text-white text-black">RaghavBlog</SheetTitle>
                 <SheetDescription>
                   <div className="flex flex-col gap-6">
                     <Link href="/" className=" hover:text-gray-400">
@@ -124,6 +123,8 @@ const Navbar = () => {
                       <Button className="mx-1 text-xs" variant="outline">
                         Signup
                       </Button>
+                    </div>
+                    <div>
                     </div>
                   </div>
                 </SheetDescription>
