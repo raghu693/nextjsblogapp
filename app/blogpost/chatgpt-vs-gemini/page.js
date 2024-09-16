@@ -21,17 +21,7 @@ export default async function page({ params }) {
   //   content: "<p>This is the content of the blog post.</p>",
   // };
 
-<<<<<<< HEAD:app/blogpost/chatgpt-vs-gemini/page.js
   const filePath = `content/chatgpt-vs-gemini.md`;
-=======
-  const filePath = `/content/${params.slug}.md`;
-  console.log('the msg is' + params.slug);
->>>>>>> b5d2c18adc23d9454b3ac1a949982817c6856a05:app/blogpost/[slug]/page.js
-  // if (!fs.existsSync(filePath)) {
-  //   return (
-  //     <div className="text-5xl text-center">Sorry Blog not found || 404</div>
-  //   );
-  // }
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
   let blog = data;
