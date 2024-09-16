@@ -173,7 +173,7 @@ export default function Home() {
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
                 <p className="text-gray-600 dark:text-gray-400">
                   &quot;This service has been a game-changer for our business. Highly
-                  recommend! &quot;
+                  recommend!&quot;
                 </p>
                 <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
                   John Doe
