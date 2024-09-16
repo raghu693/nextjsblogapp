@@ -172,8 +172,8 @@ export default function Home() {
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
                 <p className="text-gray-600 dark:text-gray-400">
-                  &quto;This service has been a game-changer for our business. Highly
-                  recommend!&quto;
+                  &quot;This service has been a game-changer for our business. Highly
+                  recommend!&quot;
                 </p>
                 <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
                   John Doe
@@ -187,8 +187,8 @@ export default function Home() {
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
                 <p className="text-gray-600 dark:text-gray-400">
-                &quto;Amazing experience! The team was professional and the results
-                  were outstanding.&quto;
+                &quot;Amazing experience! The team was professional and the results
+                  were outstanding.&quot;
                 </p>
                 <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
                   Jane Smith
@@ -202,8 +202,8 @@ export default function Home() {
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
                 <p className="text-gray-600 dark:text-gray-400">
-                &quto;Exceptional service and support. We couldn*apos;t be happier with
-                  the results.&quto;
+                &quot;Exceptional service and support. We couldn*apos;t be happier with
+                  the results.&quot;
                 </p>
                 <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
                   Michael Brown
