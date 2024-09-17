@@ -17,7 +17,7 @@ const OnThisPage = ({ htmlcontent }) => {
   }, [htmlcontent]);
 
   return (
-    <div className="on-this-page hidden md:absolute top-28 right-1/3">
+    <div className="on-this-page max-xl:hidden absolute top-28 right-1/4">
       <h1 className="text-xl my-5 font-bold cursor-pointer">On this Page</h1>
       <ul className="flex flex-col gap-2 text-[15px] font-semibold">
         {headings.map((heading, index) => {
