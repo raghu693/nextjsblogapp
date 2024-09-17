@@ -16,6 +16,9 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "RaghavBlog -- Blogging App",
+  icons: {
+    icon: '/favicon.png'
+  },
   description: "This is a Blogging App Made by Raghav. SO it is named RaghavBlog. in This you fill find some Blogs like ChatGPT vs Gemini. which is up to date.",
 };
 
